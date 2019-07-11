@@ -1,0 +1,52 @@
+{
+  "config": {
+    "title": "Docz Example",
+    "description": "My awesome app using docz",
+    "menu": [],
+    "version": "0.1.0",
+    "repository": null,
+    "native": false,
+    "codeSandbox": true,
+    "themeConfig": {},
+    "separator": "-"
+  },
+  "entries": [
+    {
+      "key": "src/hello.mdx",
+      "value": {
+        "name": "Bem vindo",
+        "id": "e2fb1f1eb1d17bc0a0e6e100f86fb0f4",
+        "filepath": "src/hello.mdx",
+        "link": "",
+        "slug": "src-hello",
+        "route": "/src-hello",
+        "menu": "",
+        "headings": [
+          {
+            "slug": "bem-vindo",
+            "depth": 1,
+            "value": "Bem vindo"
+          },
+          {
+            "slug": "vida-longa-ao-paraiba-js",
+            "depth": 3,
+            "value": "Vida longa ao  Paraiba JS"
+          }
+        ]
+      }
+    }
+  ],
+  "props": [
+    {
+      "key": "src/App.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "App",
+          "methods": [],
+          "actualName": "App"
+        }
+      ]
+    }
+  ]
+}
