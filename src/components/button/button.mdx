@@ -1,0 +1,19 @@
+---
+name: Botão
+menu: Componentes
+---
+
+import { Playground, Props } from 'docz';
+import Button from './';
+
+## Uso Básico
+
+<Playground>
+  <Button texto="Salvar" cor="red"> {props.texto}</Button>
+  <Button texto="Remover" cor="blue"> {props.texto} </Button>
+  <Button texto="Editar" cor="orange"> {props.texto} </Button>
+  <Button texto="Listar" cor="#821342"> {props.texto} </Button>
+</Playground>
+
+## Propriedades
+<Props of={Button}/>

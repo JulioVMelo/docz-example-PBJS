@@ -34,6 +34,30 @@
           }
         ]
       }
+    },
+    {
+      "key": "src/components/button/button.mdx",
+      "value": {
+        "name": "Botão",
+        "menu": "Componentes",
+        "id": "627a2d929cede9cf7c1c25d950434123",
+        "filepath": "src/components/button/button.mdx",
+        "link": "",
+        "slug": "src-components-button-button",
+        "route": "/src-components-button-button",
+        "headings": [
+          {
+            "slug": "uso-básico",
+            "depth": 2,
+            "value": "Uso Básico"
+          },
+          {
+            "slug": "propriedades",
+            "depth": 2,
+            "value": "Propriedades"
+          }
+        ]
+      }
     }
   ],
   "props": [
@@ -45,6 +69,52 @@
           "displayName": "App",
           "methods": [],
           "actualName": "App"
+        }
+      ]
+    },
+    {
+      "key": "src/components/button/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "actualName": "Button",
+          "props": {
+            "texto": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "\"OK\"",
+                "computed": false
+              }
+            },
+            "cor": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "\"#19181E\"",
+                "computed": false
+              }
+            },
+            "tamanho": {
+              "type": {
+                "name": "number"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "300",
+                "computed": false
+              }
+            }
+          }
         }
       ]
     }
