@@ -8,13 +8,26 @@
     "native": false,
     "codeSandbox": true,
     "themeConfig": {
+      "mode": "dark",
       "colors": {
         "primary": "#62D463"
-      },
-      "mode": "dark"
+      }
     },
     "separator": "-"
   },
+  "props": [
+    {
+      "key": "src/App.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "App",
+          "methods": [],
+          "actualName": "App"
+        }
+      ]
+    }
+  ],
   "entries": [
     {
       "key": "src/hello.mdx",
@@ -122,19 +135,6 @@
           }
         ]
       }
-    }
-  ],
-  "props": [
-    {
-      "key": "src/App.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "App",
-          "methods": [],
-          "actualName": "App"
-        }
-      ]
     }
   ]
 }

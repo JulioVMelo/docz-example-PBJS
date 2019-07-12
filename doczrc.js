@@ -1,5 +1,3 @@
-// doczrc.js
-
 export default {
   title: 'Paraiba JS',
   description: 'This is my awesome documentation',
