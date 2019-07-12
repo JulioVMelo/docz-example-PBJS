@@ -36,6 +36,55 @@
       }
     },
     {
+      "key": "src/components/buttonComplete/index.mdx",
+      "value": {
+        "name": "Button",
+        "menu": "Components",
+        "id": "370d4128a187a48115ba76b3c5b10e0a",
+        "filepath": "src/components/buttonComplete/index.mdx",
+        "link": "",
+        "slug": "src-components-button-complete-index",
+        "route": "/src-components-button-complete-index",
+        "headings": [
+          {
+            "slug": "button",
+            "depth": 1,
+            "value": "Button"
+          },
+          {
+            "slug": "best-practices",
+            "depth": 3,
+            "value": "Best practices"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
+          },
+          {
+            "slug": "with-different-sizes",
+            "depth": 2,
+            "value": "With different sizes"
+          },
+          {
+            "slug": "with-different-colors",
+            "depth": 2,
+            "value": "With different colors"
+          },
+          {
+            "slug": "outlined",
+            "depth": 2,
+            "value": "Outlined"
+          }
+        ]
+      }
+    },
+    {
       "key": "src/components/buttonSimple/button.mdx",
       "value": {
         "name": "Button Simple",
@@ -83,7 +132,7 @@
       ]
     },
     {
-      "key": "src/components/button/index.js",
+      "key": "src/components/buttonComplete/index.js",
       "value": [
         {
           "description": "",
@@ -96,23 +145,23 @@
                 "name": "enum",
                 "value": [
                   {
-                    "value": "'small'",
+                    "value": "\"small\"",
                     "computed": false
                   },
                   {
-                    "value": "'normal'",
+                    "value": "\"normal\"",
                     "computed": false
                   },
                   {
-                    "value": "'big'",
+                    "value": "\"big\"",
                     "computed": false
                   }
                 ]
               },
               "required": false,
-              "description": "One cool comment",
+              "description": "This is a pretty good description for this prop",
               "defaultValue": {
-                "value": "'normal'",
+                "value": "\"normal\"",
                 "computed": false
               }
             },
@@ -121,23 +170,23 @@
                 "name": "enum",
                 "value": [
                   {
-                    "value": "'primary'",
+                    "value": "\"primary\"",
                     "computed": false
                   },
                   {
-                    "value": "'secondary'",
+                    "value": "\"secondary\"",
                     "computed": false
                   },
                   {
-                    "value": "'cancel'",
+                    "value": "\"cancel\"",
                     "computed": false
                   },
                   {
-                    "value": "'dark'",
+                    "value": "\"dark\"",
                     "computed": false
                   },
                   {
-                    "value": "'gray'",
+                    "value": "\"gray\"",
                     "computed": false
                   }
                 ]
@@ -145,7 +194,7 @@
               "required": false,
               "description": "",
               "defaultValue": {
-                "value": "'primary'",
+                "value": "\"primary\"",
                 "computed": false
               }
             },
@@ -157,30 +206,6 @@
               "description": "",
               "defaultValue": {
                 "value": "false",
-                "computed": false
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "src/components/buttonSimple/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Button",
-          "methods": [],
-          "actualName": "Button",
-          "props": {
-            "text": {
-              "type": {
-                "name": "string"
-              },
-              "required": false,
-              "description": "Comments here",
-              "defaultValue": {
-                "value": "'Paraiba JS'",
                 "computed": false
               }
             }
