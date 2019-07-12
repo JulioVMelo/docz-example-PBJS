@@ -3,9 +3,9 @@ export const imports = {
     import(
       /* webpackPrefetch: true, webpackChunkName: "src-hello" */ 'src/hello.mdx'
     ),
-  'src/components/buttonComplete/index.mdx': () =>
+  'src/components/buttonComplete/buttonComplete.mdx': () =>
     import(
-      /* webpackPrefetch: true, webpackChunkName: "src-components-button-complete-index" */ 'src/components/buttonComplete/index.mdx'
+      /* webpackPrefetch: true, webpackChunkName: "src-components-button-complete-button-complete" */ 'src/components/buttonComplete/buttonComplete.mdx'
     ),
   'src/components/buttonSimple/button.mdx': () =>
     import(

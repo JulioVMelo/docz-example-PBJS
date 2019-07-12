@@ -36,15 +36,15 @@
       }
     },
     {
-      "key": "src/components/buttonComplete/index.mdx",
+      "key": "src/components/buttonComplete/buttonComplete.mdx",
       "value": {
-        "name": "Button",
+        "name": "Button Complete",
         "menu": "Components",
-        "id": "370d4128a187a48115ba76b3c5b10e0a",
-        "filepath": "src/components/buttonComplete/index.mdx",
+        "id": "6097980a0e338e1155c2fc1af456aa03",
+        "filepath": "src/components/buttonComplete/buttonComplete.mdx",
         "link": "",
-        "slug": "src-components-button-complete-index",
-        "route": "/src-components-button-complete-index",
+        "slug": "src-components-button-complete-button-complete",
+        "route": "/src-components-button-complete-button-complete",
         "headings": [
           {
             "slug": "button",
@@ -206,6 +206,30 @@
               "description": "",
               "defaultValue": {
                 "value": "false",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/buttonSimple/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "actualName": "Button",
+          "props": {
+            "text": {
+              "type": {
+                "name": "string"
+              },
+              "required": false,
+              "description": "Comments here",
+              "defaultValue": {
+                "value": "'Paraiba JS'",
                 "computed": false
               }
             }
