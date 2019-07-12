@@ -1,13 +1,18 @@
 {
   "config": {
-    "title": "Docz Example",
-    "description": "My awesome app using docz",
+    "title": "Paraiba JS",
+    "description": "This is my awesome documentation",
     "menu": [],
     "version": "0.1.0",
     "repository": null,
     "native": false,
     "codeSandbox": true,
-    "themeConfig": {},
+    "themeConfig": {
+      "colors": {
+        "primary": "#62D463"
+      },
+      "mode": "dark"
+    },
     "separator": "-"
   },
   "entries": [
@@ -128,112 +133,6 @@
           "displayName": "App",
           "methods": [],
           "actualName": "App"
-        }
-      ]
-    },
-    {
-      "key": "src/components/buttonComplete/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Button",
-          "methods": [],
-          "actualName": "Button",
-          "props": {
-            "scales": {
-              "type": {
-                "name": "enum",
-                "value": [
-                  {
-                    "value": "\"small\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"normal\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"big\"",
-                    "computed": false
-                  }
-                ]
-              },
-              "required": false,
-              "description": "This is a pretty good description for this prop",
-              "defaultValue": {
-                "value": "\"normal\"",
-                "computed": false
-              }
-            },
-            "kind": {
-              "type": {
-                "name": "enum",
-                "value": [
-                  {
-                    "value": "\"primary\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"secondary\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"cancel\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"dark\"",
-                    "computed": false
-                  },
-                  {
-                    "value": "\"gray\"",
-                    "computed": false
-                  }
-                ]
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "\"primary\"",
-                "computed": false
-              }
-            },
-            "outline": {
-              "type": {
-                "name": "bool"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "false",
-                "computed": false
-              }
-            }
-          }
-        }
-      ]
-    },
-    {
-      "key": "src/components/buttonSimple/index.js",
-      "value": [
-        {
-          "description": "",
-          "displayName": "Button",
-          "methods": [],
-          "actualName": "Button",
-          "props": {
-            "text": {
-              "type": {
-                "name": "string"
-              },
-              "required": false,
-              "description": "Comments here",
-              "defaultValue": {
-                "value": "'Paraiba JS'",
-                "computed": false
-              }
-            }
-          }
         }
       ]
     }
