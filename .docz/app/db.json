@@ -15,17 +15,17 @@
       "key": "src/hello.mdx",
       "value": {
         "name": "Bem vindo",
+        "route": "/",
         "id": "e2fb1f1eb1d17bc0a0e6e100f86fb0f4",
         "filepath": "src/hello.mdx",
         "link": "",
         "slug": "src-hello",
-        "route": "/src-hello",
         "menu": "",
         "headings": [
           {
-            "slug": "bem-vindo",
+            "slug": "hello-world",
             "depth": 1,
-            "value": "Bem vindo"
+            "value": "Hello World"
           },
           {
             "slug": "vida-longa-ao-paraiba-js",
@@ -36,25 +36,35 @@
       }
     },
     {
-      "key": "src/components/button/button.mdx",
+      "key": "src/components/buttonSimple/button.mdx",
       "value": {
-        "name": "Botão",
-        "menu": "Componentes",
-        "id": "627a2d929cede9cf7c1c25d950434123",
-        "filepath": "src/components/button/button.mdx",
+        "name": "Button Simple",
+        "menu": "Components",
+        "id": "aa2f58974ef58cff47fa2556cd104878",
+        "filepath": "src/components/buttonSimple/button.mdx",
         "link": "",
-        "slug": "src-components-button-button",
-        "route": "/src-components-button-button",
+        "slug": "src-components-button-simple-button",
+        "route": "/src-components-button-simple-button",
         "headings": [
           {
-            "slug": "uso-básico",
-            "depth": 2,
-            "value": "Uso Básico"
+            "slug": "button-simple",
+            "depth": 1,
+            "value": "Button Simple"
           },
           {
-            "slug": "propriedades",
+            "slug": "best-practices",
             "depth": 2,
-            "value": "Propriedades"
+            "value": "Best practices"
+          },
+          {
+            "slug": "properties",
+            "depth": 2,
+            "value": "Properties"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 2,
+            "value": "Basic usage"
           }
         ]
       }
@@ -81,36 +91,96 @@
           "methods": [],
           "actualName": "Button",
           "props": {
-            "texto": {
+            "scales": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'small'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'normal'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'big'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "One cool comment",
+              "defaultValue": {
+                "value": "'normal'",
+                "computed": false
+              }
+            },
+            "kind": {
+              "type": {
+                "name": "enum",
+                "value": [
+                  {
+                    "value": "'primary'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'secondary'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'cancel'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'dark'",
+                    "computed": false
+                  },
+                  {
+                    "value": "'gray'",
+                    "computed": false
+                  }
+                ]
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "'primary'",
+                "computed": false
+              }
+            },
+            "outline": {
+              "type": {
+                "name": "bool"
+              },
+              "required": false,
+              "description": "",
+              "defaultValue": {
+                "value": "false",
+                "computed": false
+              }
+            }
+          }
+        }
+      ]
+    },
+    {
+      "key": "src/components/buttonSimple/index.js",
+      "value": [
+        {
+          "description": "",
+          "displayName": "Button",
+          "methods": [],
+          "actualName": "Button",
+          "props": {
+            "text": {
               "type": {
                 "name": "string"
               },
               "required": false,
-              "description": "",
+              "description": "Comments here",
               "defaultValue": {
-                "value": "\"OK\"",
-                "computed": false
-              }
-            },
-            "cor": {
-              "type": {
-                "name": "string"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "\"#19181E\"",
-                "computed": false
-              }
-            },
-            "tamanho": {
-              "type": {
-                "name": "number"
-              },
-              "required": false,
-              "description": "",
-              "defaultValue": {
-                "value": "300",
+                "value": "'Paraiba JS'",
                 "computed": false
               }
             }
